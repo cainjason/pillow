@@ -13,6 +13,14 @@ export default Header;
 
 const ContainerHeader = styled.div`
     background-color: blue;
+    color: wheat;
+    height: 40px;
+
+    > h2:hover {
+        margin: none;
+        padding: none;
+        cursor: pointer;
+    }
 `;
 
 
